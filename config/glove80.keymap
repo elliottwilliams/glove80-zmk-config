@@ -57,26 +57,28 @@
             bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
 
-        kp_lhrm: kp_lhrm {
+        lh_pht: lh_pht {
             compatible = "zmk,behavior-hold-tap";
-            label = "KP_LHRM";
+            label = "LH_PHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            hold-trigger-key-positions = <5 6 7 16 28 17 18 19 20 21 29 30 31 32 33 41 42 43 44 45 59 60 61 62 63 75 76 77 78 79 9 8 40 58 55 73 74 56 72 57>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <100>;
+            hold-trigger-key-positions = <41 42 43 44 40>;
+            flavor = "tap-unless-interrupted";
+            quick-tap-ms = <200>;
         };
 
-        kp_rhrm: kp_rhrm {
+        rh_pht: rh_pht {
             compatible = "zmk,behavior-hold-tap";
-            label = "KP_RHRM";
+            label = "RH_PHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
-            hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 15 22 23 24 25 26 27 34 35 36 37 38 39 46 47 48 49 50 51 52 53 54 64 65 66 67 68 69 70 71>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <100>;
+            hold-trigger-key-positions = <35 36 37 38 39>;
+            flavor = "tap-unless-interrupted";
+            quick-tap-ms = <200>;
         };
     };
 
@@ -130,12 +132,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1      &kp F2            &kp F3           &kp F4           &kp F5                                                                                                     &kp F6            &kp F7           &kp F8           &kp F9               &kp F10
-&kp EQUAL   &kp N1            &kp N2           &kp N3           &kp N4            &kp N5                                                                           &kp N6  &kp N7            &kp N8           &kp N9           &kp N0               &kp MINUS
-&kp TAB     &kp Q             &kp W            &kp E            &kp R             &kp T                                                                            &kp Y   &kp U             &kp I            &kp O            &kp P                &kp BSLH
-&kp ESC     &kp_lhrm LCTRL A  &kp_lhrm LALT S  &kp_lhrm LCMD D  &kp_lhrm LSHFT F  &kp G                                                                            &kp H   &kp_rhrm RSHFT J  &kp_rhrm RCMD K  &kp_rhrm RALT L  &kp_rhrm RCTRL SEMI  &kp SQT
-&kp GRAVE   &kp Z             &kp X            &kp C            &kp V             &kp B   &kp_ht LSHFT SPACE  &kp LCMD  &layer_td  &kp LCTRL  &kp RGUI  &shift_td  &kp N   &kp M             &kp COMMA        &kp DOT          &kp FSLH             &kp PG_UP
-&magic 2 0  &kp HOME          &kp END          &kp LEFT         &kp RIGHT                 &kp BSPC            &kp DEL   &kp LALT   &kp RALT   &kp RET   &kp SPACE          &kp UP            &kp DOWN         &kp LBKT         &kp RBKT             &kp PG_DN
+&kp F1      &kp F2           &kp F3          &kp F4          &kp F5                                                                                                    &kp F6           &kp F7          &kp F8          &kp F9              &kp F10
+&kp EQUAL   &kp N1           &kp N2          &kp N3          &kp N4           &kp N5                                                                           &kp N6  &kp N7           &kp N8          &kp N9          &kp N0              &kp MINUS
+&kp TAB     &kp Q            &kp W           &kp E           &kp R            &kp T                                                                            &kp Y   &kp U            &kp I           &kp O           &kp P               &kp BSLH
+&kp ESC     &lh_pht LCTRL A  &lh_pht LALT S  &lh_pht LCMD D  &lh_pht LSHFT F  &kp G                                                                            &kp H   &rh_pht RSHFT J  &rh_pht RCMD K  &rh_pht RALT L  &rh_pht RCTRL SEMI  &kp SQT
+&kp GRAVE   &kp Z            &kp X           &kp C           &kp V            &kp B   &kp_ht LSHFT SPACE  &kp LCMD  &layer_td  &kp LCTRL  &kp RGUI  &shift_td  &kp N   &kp M            &kp COMMA       &kp DOT         &kp FSLH            &kp PG_UP
+&magic 2 0  &kp HOME         &kp END         &kp LEFT        &kp RIGHT                &kp BSPC            &kp DEL   &kp LALT   &kp RALT   &kp RET   &kp SPACE          &kp UP           &kp DOWN        &kp LBKT        &kp RBKT            &kp PG_DN
             >;
         };
 
