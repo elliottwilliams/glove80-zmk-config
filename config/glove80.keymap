@@ -66,6 +66,7 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
             quick-tap-ms = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         rh_pht: rh_pht {
@@ -77,6 +78,7 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
             quick-tap-ms = <0>;
+            require-prior-idle-ms = <150>;
         };
     };
 
