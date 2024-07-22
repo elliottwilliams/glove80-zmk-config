@@ -54,7 +54,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_TD";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+            bindings = <&sk RIGHT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
         };
 
         lh_pht: lh_pht {
