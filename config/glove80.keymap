@@ -99,7 +99,6 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <1000>;
-            hold-while-undecided;
         };
     };
 
