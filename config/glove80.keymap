@@ -164,111 +164,111 @@
 
         mod_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LSHFT 2  &none      &trans    &sk RCTRL  &none   &kp_sl RSHFT 2  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans          &sk LCTRL  &sk LALT  &sk RALT   &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                             &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LG(LSHFT) 3  &none               &trans             &kp_sl RG(RCTRL) 9  &none   &kp_sl RG(RSHFT) 3  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans              &kp_sl LG(LCTRL) 9  &kp_sl LG(LALT) 5  &kp_sl RG(RALT) 5   &trans  &trans                      &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                             &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &kp_sl LS(LGUI) 3  &trans    &sk RCTRL  &kp_sl RS(RGUI) 3  &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &sk LCTRL          &sk LALT  &sk RALT   &trans             &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &kp_sl LS(LGUI) 3    &trans             &kp_sl RS(RCTRL) 10  &kp_sl RS(RGUI) 3  &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &kp_sl LS(LCTRL) 10  &kp_sl LS(LALT) 6  &kp_sl RS(RALT) 6    &trans             &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_shift_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &none                    &trans    &kp_sl RS(RG(RCTRL)) 11  &none   &none   &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &kp_sl LS(LG(LCTRL)) 11  &sk LALT  &sk RALT                 &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &none                    &trans                 &kp_sl RS(RG(RCTRL)) 11  &none   &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &kp_sl LS(LG(LCTRL)) 11  &kp_sl LS(LG(LALT)) 7  &kp_sl RS(RG(RALT)) 7    &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_alt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                               &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LA(LSHFT) 6  &kp_sl LA(LCMD) 5    &trans  &kp_sl RA(RCTRL) 12  &kp_sl RA(RCMD) 5  &kp_sl RA(RSHFT) 6  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans              &kp_sl LA(LCTRL) 12  &none   &none                &trans             &trans                      &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_alt_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                                     &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LA(LG(LSHIFT)) 7  &none                    &trans  &kp_sl RA(RG(RCTRL)) 13  &none   &kp_sl RA(RG(RSHFT)) 7  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans                   &kp_sl LA(LG(LCTRL)) 13  &none   &none                    &trans  &trans                          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_alt_shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &kp_sl LS(LA(LCMD)) 7    &trans  &kp_sl RA(RS(RCTRL)) 14  &kp_sl RA(RS(RCMD)) 7  &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &kp_sl LS(LA(LCTRL)) 14  &none   &none                    &trans                 &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_alt_shift_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &none                  &trans  &kp RA(RS(RG(RCTRL)))  &none   &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &kp LA(LS(LG(LCTRL)))  &none   &none                  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_ctrl {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                                          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LC(LSHFT) 10  &kp_sl LC(LCMD) 9  &trans              &none               &kp_sl RC(RCMD) 9  &kp_sl RC(RSHFT) 10  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans               &none              &kp_sl LC(LALT) 12  &kp_sl RC(RALT) 12  &trans             &trans                       &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_ctrl_cmd {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                                   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LC(LG(LSHFT)) 11  &none  &trans                  &none                   &none   &kp_sl RC(RG(RSHFT)) 11  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans                   &none  &kp_sl LC(LG(LALT)) 13  &kp_sl RC(RG(RALT)) 13  &trans  &trans                           &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         mod_ctrl_shift {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &kp_sl LC(LS(LCMD)) 11  &trans                  &none                   &kp_sl LC(LS(LCMD)) 11  &none   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &none                   &kp_sl LC(LS(LALT)) 14  &kp_sl RC(RS(RALT)) 14  &trans                  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -285,12 +285,12 @@
 
         mod_ctrl_alt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                                                                                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LC(LA(LSHFT)) 14  &kp_sl LA(LC(LGUI)) 13  &trans  &trans  &kp_sl RC(RA(RGUI)) 13  &kp_sl RC(RA(RSHFT)) 14  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans                   &trans                  &trans  &trans  &trans                  &trans                           &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                                                                                                                                   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                                                                                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp_sl LC(LA(LSHFT)) 14  &kp_sl LA(LC(LGUI)) 13  &trans  &none  &kp_sl RC(RA(RGUI)) 13  &kp_sl RC(RA(RSHFT)) 14  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans                   &none                   &none   &none  &trans                  &trans                           &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -311,7 +311,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LA(LC(LCMD)))  &none  &none  &kp RS(RA(RC(RCMD)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &kp LS(LA(LC(LCMD)))  &none  &none  &kp RS(RA(RC(RCMD)))  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &none                 &none  &none  &trans                &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
